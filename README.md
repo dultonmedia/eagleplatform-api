@@ -28,11 +28,12 @@ API Docs for Eagle Platform server and Eagle Player
 * [Using metadata](media/metadata.md)
 * [Albums](media/albums.md)
 
-
-
 ## Live streaming
 
-* [Translation](media/translations.md)
+* [Translation](streaming/translations.md)
+* [Statistics](streaming/stats.md)
+* [Direct link to stream](streaming/watch.md)
+
 
 ## Player
 
