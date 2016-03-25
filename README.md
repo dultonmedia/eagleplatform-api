@@ -6,8 +6,8 @@ Api overview
 
 ## Authentication
 
-* [auth_token|Using auth token]
-* Using OAuth
+* [Using Auth Token](auth/token.md)
+* [Using OAuth](auth/oauth.md)
 
 ## Records
 
