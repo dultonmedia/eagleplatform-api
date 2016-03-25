@@ -6,7 +6,7 @@ Api overview
 
 ## Authentication
 
-* Using auth token
+* [auth_token|Using auth token]
 * Using OAuth
 
 ## Records
