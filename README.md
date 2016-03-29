@@ -37,4 +37,5 @@ API Docs for Eagle Platform server and Eagle Player
 
 ## Player
 
-TBD
+* [Skinning](player/skin.md)
+* 
