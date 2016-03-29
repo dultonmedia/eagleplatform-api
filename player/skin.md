@@ -1,5 +1,9 @@
 # Skinning player
 
+## Structure
+
+* Use `eplayer-skin-component` class on every element which is interactable with user
+
 ## Using common components
 
 You can use some common classes in your skins and plugins to let player appearance be consistent.
