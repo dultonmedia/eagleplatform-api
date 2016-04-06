@@ -1,19 +1,24 @@
 ## Record object
 
-* id – Id записи
-* name – название
-* description – описаие
-* tags – массив тэгов разделенных запятыми
-* duration – длительность
-* origin – оригинал
-* origin_size – размер оригинала
-* albums – список альбомов (id) 
-* is_processed – обработан
-* screenshots – список снимков (id)
-* current_screenshot – снимок по умолсанию
-* view_count – количество просмотров
-* click_url – ссылка перехода после клика по плееру
-* user_id – id пользователя
-* recorded_at – дата записи
-* updated_at – дата обновления
-* created_at – дата создания
+* `id` Unique Record ID
+* `name` Record name as would be displayed in player
+* `is_hd` Boolean indicator if processed record will have height of 720 px or more
+* `description` Record description
+* `tags` Tags list as array
+* `duration` Duration in milliseconds
+* `origin` Temporary link to download originally uploaded video file
+* `origin_size` Size of originally uploaded video file
+* `albums` Array of album IDs
+* `is_processed` Boolean flag showing if record was fully processed
+* `screenshots` Array of screenshot URLs
+* `current_screenshot` URL of current screenshot
+* `view_count` Count of views
+* `click_url` URL related to the record
+* `user_id` ID of record owner
+* `recorded_at` Date of record. Can be manually changed
+* `updated_at` Date of record last update.
+* `created_at` Date of record creation.
+
+Record will also include all fields defined on Metadata management page.
+
+* `record_files` Array of converted video files
