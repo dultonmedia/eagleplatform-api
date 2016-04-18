@@ -37,5 +37,6 @@ API Docs for Eagle Platform server and Eagle Player
 
 ## Player
 
+* [JS API](player/js_api.md)
 * [Skinning](player/skin.md)
-* 
+* [IFrame API](player/iframe_api.md)
