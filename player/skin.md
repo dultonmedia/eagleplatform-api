@@ -23,5 +23,24 @@ However you can use these styles to build more complex interface.
 * `eplayer-hover-color` will set color on hover elements to *hover-color* property of player template
 * `eplayer-active-color` will set color property to *active-color* of player template 
 
+## HAML templates for plugins
+
+All haml files are compiled to player JS file. You can reference it by calling 
+
+    $(window["eplayer-templates"][PATH])
+
+Where PATH is a relative HAML path from src dir, for example `plugins/share_embed.html`
+
+## Translations
+
+You can use player translate API by passing HTML element code to translateElement function.
+
+It will recursively translate all element and all of its sub-elements with translate="constant" property
+
+Example HTML:
+
+Example call:
+
+    player.translateElement(this.$elm)
 
 
