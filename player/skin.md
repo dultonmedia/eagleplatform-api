@@ -3,6 +3,9 @@
 ## Structure
 
 * Use `eplayer-skin-component` class on every element which is interactable with user
+* Use `eplayer-skin-fullsize` class on every element which should fill 100% of player area
+* Use `eplayer-skin-background` if you want to draw element behind skin controls
+* Use `eplayer-skin-foreground` if you want to draw element above skin controls
 
 ## Using common components
 
