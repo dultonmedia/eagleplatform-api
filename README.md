@@ -34,10 +34,11 @@ API Docs for Eagle Platform server and Eagle Player
 * [Statistics](streaming/stats.md)
 * [Direct link to stream](streaming/watch.md)
 
-
 ## Player
 
 * [API Methods and Events](player/api.md)
 * [IFrame API](player/iframe_api.md)
 * [Skinning](player/skin.md)
 * [Making plugins](player/plugins.md)
+* [OSD format](player/osd.md)
+
