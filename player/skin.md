@@ -28,6 +28,10 @@ However you can use these styles to build more complex interface.
 * `eplayer-hover-color` will set color on hover elements to *hover-color* property of player template
 * `eplayer-active-color` will set color property to *active-color* of player template 
 
+## Responsible layout
+
+* `eplayer-xs-hidden` will hide the element if player width is smaller then 400 px
+
 ## HAML templates for plugins
 
 All haml files are compiled to player JS file. You can reference it by calling 
