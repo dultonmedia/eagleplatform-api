@@ -21,6 +21,8 @@ Usually using button and pane components is enough to build simple plugin or ski
 
 However you can use these styles to build more complex interface.
 
+* `eplayer-main-color` will set color property to *foreground-color* color of player template
+* `eplayer-main-color-background` will set background color property to *foreground-color* property of player template
 * `eplayer-text-color` will set color property to *text-color* color of player template
 * `eplayer-text-color-background` will set background color property to *text-color* property of player template
 * `eplayer-hover-color` will set color on hover elements to *hover-color* property of player template
