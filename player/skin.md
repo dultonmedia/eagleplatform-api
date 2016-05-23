@@ -6,6 +6,7 @@
 * Use `eplayer-skin-fullsize` class on every element which should fill 100% of player area
 * Use `eplayer-skin-background` if you want to draw element behind skin controls
 * Use `eplayer-skin-foreground` if you want to draw element above skin controls
+* Use `eplayer-skin-shiftable` if you want to let background elements be shiftable by skin controls
 
 ## Using common components
 
