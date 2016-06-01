@@ -1,5 +1,13 @@
 # Skinning player
 
+## Adding custom HTML and CSS
+
+In most cases it is suitable to create custom CSS.
+
+If you need more complex changes involving structure you can also build your own HTML.
+
+To connect your assets to skins add parameters to player data with css and html paths. It could be URL or relative path.
+
 ## Structure
 
 * Use `eplayer-skin-component` class on every element which is interactable with user
