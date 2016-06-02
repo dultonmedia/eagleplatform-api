@@ -51,4 +51,14 @@ Example output
 
 ## Create record
 
+Creates record. Record fields should be passed as request fields wrapped with record object
+
+    POST http://api.eagleplatform.com/media/records.json
+    record[name]="New record"
+
+
+### Updating custom screenshot
+
+Pass URL or data to custom_screenshot field to update screenshot
+
 ## Update record
