@@ -27,7 +27,7 @@ Record will also include all fields defined on Metadata management page.
 
 ## Get record
 
-Returns record object by its ID. Record fields are wrapped to "record" object.
+### Returns record object by its ID. Record fields are wrapped to "record" object.
 
     GET http://api.eagleplatform.com/media/records/{id}.json
 
