@@ -2,7 +2,7 @@
 
 Returns record for filter by its ID. 
 
-    GET http://api.eagleplatform.com/media/filters{id}/records.json
+    GET http://api.eagleplatform.com/media/filters/{id}.json
 
 ### Parameters
 
@@ -12,9 +12,26 @@ Returns record for filter by its ID.
 
 #### Output
 
-Array of records fields wrapped to "records" object.
+Basic data for filter with records object. Each record contains standard fields.
 
 ### Example request
 
-    curl -X GET "https://api.eagleplatform.com/media/filters/100500/records.json?account=myaccount&auth_token=mytoken"
+    curl -X GET "https://api.eagleplatform.com/media/filters/100500.json?account=myaccount&auth_token=mytoken"
 
+### Example output
+
+    {
+        "time": "2016-06-03T13:26:37+03:00",
+        "version": "3.0",
+        "data": {
+            "id": 12344,
+            "name": "Best videos",
+            "total_entries": 492,
+            "total_pages": 10,
+            "current_page": 1,
+            "records": [
+                {
+                    "id": 477768,
+                    "name": "Video one",
+                    "description": null,
+                    ...
