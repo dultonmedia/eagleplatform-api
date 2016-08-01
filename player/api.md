@@ -6,11 +6,15 @@ Methods and events are available from skins, plugins and externally from IFrame 
 
 To use methods just call them as regular methods of `player` object: `player.play();`
 
+### Common
+
+* `reload` - reloads video with another ID. Pass it to the parameter.
+
 ### Metadata
 
-* `getD` - gets duration in millisec
+* `getData` - gets video metadata. Use parameter as a key of metadata. Some of possible metadata keys are `name`, `duration`.
 
-### Sizes
+### Playback
 
 * `play` - starts video playback. Works everytime even if video is paused or stopped.
 * `pause` - pauses video playback.
@@ -29,6 +33,7 @@ To use events just use `on` subscription similar to JQuery. First parameter will
 ### Common events
 
 * `start` - player is fully initialized and ready to work
+* `reload` - when player reloads video with another
 
 ### Playback events
 
