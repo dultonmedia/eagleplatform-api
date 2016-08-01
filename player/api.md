@@ -6,6 +6,10 @@ Methods and events are available from skins, plugins and externally from IFrame 
 
 To use methods just call them as regular methods of `player` object: `player.play();`
 
+### Metadata
+
+* `getD` - gets duration in millisec
+
 ### Sizes
 
 * `play` - starts video playback. Works everytime even if video is paused or stopped.
@@ -28,9 +32,12 @@ To use events just use `on` subscription similar to JQuery. First parameter will
 
 ### Playback events
 
-* `play` - 
+* `play` - triggered when player is about to start playing content. It may happen when user clicks on play button.
+* `playing` - triggered just after the main video is started to play. The difference here with `play` event is this method ensures that player started to play video and not advertisement/other possible media.
+* `pause` - when user pauses the video playback
 * `timeupdate` - fired frequently during video playback. Passed parameter is current position in milliseconds
-
+* `seek` - when user performs seek on a video. Passed parameter is a millisecond to seek for.
+* `loaded_position` - buffered length event in milliseconds of last loaded moment. Triggered frequently during buffering process.
 
 ### Player size change
 
@@ -40,4 +47,4 @@ To use events just use `on` subscription similar to JQuery. First parameter will
 ### Advertisement
 
 * `advertisement_state` - when player starts, finishes advertisement or in any other significant advertisement events provided by Ad plugin. Will never be triggered if no Ad plugin enabled (no advertisement)
-* 
+
