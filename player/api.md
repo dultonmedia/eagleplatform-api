@@ -13,18 +13,26 @@ To use methods just call them as regular methods of `player` object: `player.pla
 ### Metadata
 
 * `getData` - gets video metadata. Use parameter as a key of metadata. Some of possible metadata keys are `name`, `duration`.
+* `getState` - gets current video playback state. States may be `play`, `pause` or other.
 
 ### Playback
 
 * `play` - starts video playback. Works everytime even if video is paused or stopped.
 * `pause` - pauses video playback.
 * `stop` - stops video playback.
+* `position` - rewind current video position to second passed as argument
 
 ### Sizes
 
 * `getWidth` and `getHeight` - returns player dimensions as they seen in pixels
 * `getVideoWidth` and `getVideoHeight` - returns video dimensions as they streamed
 * `getDisplayVideoWidth` and `getDisplayVideoHeight` - returns video dimensions as they seen on display
+
+### Audio
+
+* `volume` - sets volume. Pass float 0..1 as parameter
+* `mute` - mutes sound
+* `unmute` - unmutes sound
 
 ## Events
 
