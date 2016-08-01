@@ -22,5 +22,22 @@ To use methods just call them as regular methods of `player` object: `player.pla
 
 To use events just use `on` subscription similar to JQuery. First parameter will be the event name and the second will be optional parameter depending on event type.
 
+### Common events
+
+* `start` - player is fully initialized and ready to work
+
+### Playback events
+
+* `play` - 
+* `timeupdate` - fired frequently during video playback. Passed parameter is current position in milliseconds
+
+
+### Player size change
+
 * `resize` - when size of player possibly changed.
 * `fullscreen` - when player comes to fullscreen or from fullscreen. Passes boolean parameter, true indicates that fullscreen is enabled
+ 
+### Advertisement
+
+* `advertisement_state` - when player starts, finishes advertisement or in any other significant advertisement events provided by Ad plugin. Will never be triggered if no Ad plugin enabled (no advertisement)
+* 
