@@ -22,6 +22,11 @@ To use methods just call them as regular methods of `player` object: `player.pla
 * `stop` - stops video playback.
 * `position` - rewind current video position to second passed as argument
 
+### Appearance
+
+* `hideSkin` - hides the skin
+* `showSkin` - shows the skin back again after hiding
+
 ### Sizes
 
 * `getWidth` and `getHeight` - returns player dimensions as they seen in pixels
