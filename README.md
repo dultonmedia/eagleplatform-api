@@ -2,43 +2,43 @@
 
 API Docs for Eagle Platform server and Eagle Player
 
-[Server API Overview](server_overview.md)
+[Server API Overview](eagleplatform-api/server_overview.md)
 
 ## Authentication
 
-* [Using Auth Token](auth/token.md)
-* [Using OAuth](auth/oauth.md)
+* [Using Auth Token](eagleplatform-api/auth/token.md)
+* [Using OAuth](eagleplatform-api/auth/oauth.md)
 
 ## Records
 
-* [Records](media/records.md)
-* [Using upload link](media/upload.md)
-* [Direct link to watch](media/watch.md)
-* [Signing record view](media/signature.md)
+* [Records](eagleplatform-api/media/records.md)
+* [Using upload link](eagleplatform-api/media/upload.md)
+* [Direct link to watch](eagleplatform-api/media/watch.md)
+* [Signing record view](eagleplatform-api/media/signature.md)
 
 ## Statistics
 
-* [One record statistics](media/record_stats.md)
-* [All records statistics](media/stats.md)
+* [One record statistics](eagleplatform-api/media/record_stats.md)
+* [All records statistics](eagleplatform-api/media/stats.md)
 
 ## Quering
 
-* [Filters](media/filters.md)
-* [Fulltext search](media/filters.md)
-* [Using metadata](media/metadata.md)
-* [Albums](media/albums.md)
+* [Filters](eagleplatform-api/media/filters.md)
+* [Fulltext search](eagleplatform-api/media/filters.md)
+* [Using metadata](eagleplatform-api/media/metadata.md)
+* [Albums](eagleplatform-api/media/albums.md)
 
 ## Live streaming
 
-* [Translation](streaming/translations.md)
-* [Statistics](streaming/stats.md)
-* [Direct link to stream](streaming/watch.md)
+* [Translation](eagleplatform-api/streaming/translations.md)
+* [Statistics](eagleplatform-api/streaming/stats.md)
+* [Direct link to stream](eagleplatform-api/streaming/watch.md)
 
 ## Player
 
-* [API Methods and Events](player/api.md)
-* [IFrame API](player/iframe_api.md)
-* [Skinning](player/skin.md)
-* [Making plugins](player/plugins.md)
-* [OSD format](player/osd.md)
+* [API Methods and Events](eagleplatform-api/player/api.md)
+* [IFrame API](eagleplatform-api/player/iframe_api.md)
+* [Skinning](eagleplatform-api/player/skin.md)
+* [Making plugins](eagleplatform-api/player/plugins.md)
+* [OSD format](eagleplatform-api/player/osd.md)
 
