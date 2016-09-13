@@ -30,7 +30,8 @@ API Docs for Eagle Platform server and Eagle Player
 
 ## Live streaming
 
-* [Translation](streaming/translations.md)
+* [Translations](streaming/translations.md)
+* [Translation state control](streaming/states.md)
 * [Statistics](streaming/stats.md)
 * [Direct link to stream](streaming/watch.md)
 
