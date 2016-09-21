@@ -1,4 +1,4 @@
-Recommended encoding settings:
+##Recommended encoding settings.
 
 Protocol: RTMP
 
