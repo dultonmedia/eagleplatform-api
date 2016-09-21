@@ -7,6 +7,7 @@
 * Frame rate: up to 60 fps
 
 * Resolution:
+  
   1080p
   Video resolution:  1920x1080
   Video bitrate range:  3000 - 6000 kbps
