@@ -23,7 +23,7 @@ Video bitrate range: 1200 - 2500 kbps
 ### Keyframe frequency: 2 - 4 seconds	
 
 ### Audio codec: AAC/MP3
-(MP3 codec may be a cause of lack of sound on some mobile devices, without using transcoding option.)
+(MP3 codec may be a cause of lack of sound on some mobile devices without using transcoding option.)
 
 ### Sample Rate: 44.1kHz/48kHz 
 
