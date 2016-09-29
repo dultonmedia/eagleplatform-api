@@ -10,6 +10,8 @@ Returns record for filter by its ID.
 * `page` (optional) Current page. First page is 1
 * `per_page` (optional) Amount of records to show per page.
 
+If filter allows to pass parameters use them as follows in filter export description.
+
 #### Output
 
 Basic data for filter with records object. Each record contains standard fields.
