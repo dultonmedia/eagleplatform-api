@@ -10,7 +10,11 @@ Returns record for filter by its ID.
 * `page` (optional) Current page. First page is 1
 * `per_page` (optional) Amount of records to show per page.
 
-If filter allows to pass parameters use them as follows in filter export description.
+If filter allows to pass parameters use them as follows in filter export page description.
+
+If filter parameter allows to pass range pass an array:
+
+    updated_at[]=2016-01-01&updated_at[]=2016-02-01
 
 #### Output
 
