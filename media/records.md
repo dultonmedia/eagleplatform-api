@@ -56,6 +56,25 @@ Creates record. Record fields should be passed as request fields wrapped with re
     POST http://api.eagleplatform.com/media/records.json
     record[name]="New record"
 
+### Download video from HTTP/FTP URL
+
+You can pass additional parameters when creating record to ask platform to download video.
+
+Use source field containing two attributes:
+
+* `type` – `ftp` or `http`
+* `parameters` – attibutes object depending on selected type
+
+Parameters for FTP:
+
+* `host` – server hostname, e.g. `ftp.source.ru`
+* `file` – absolute path to the file, e.g. `/videos/video.mp4`
+* `username` – FTP login
+* `password` – FTP password
+
+Для скачки с HTTP
+
+* `url` – Full video file URL, e.g. `http://videos.ru/video.mp4`
 
 ### Updating custom screenshot
 
