@@ -8,11 +8,11 @@ To use this feature you have to provide SRT-formatted file.
 
 Each SRT record would have the following format:
 
-* 1 `ID according SRT specification`
-* 00:00:17,000 --> 00:00:20,000 `Timing according SRT specification`
-* 30:30:100:100 `Dimensions`
-* http://eagleplatform.com `URL`
-* Hello `(optional) Text`
+* `1` - `ID according SRT specification`
+* `00:00:17,000 --> 00:00:20,000` - `Timing according SRT specification`
+* `30:30:100:100` - `Dimensions`
+* `http://eagleplatform.com` - `URL`
+* `Hello` - `(optional) Text`
 
 ## Dimensions definition
 
@@ -22,5 +22,15 @@ All the measures are in percents of video (not player).
 
 Examples: 
 
-* 0:0:100:100 will fill all video screen
-* 40:40:60:60 will fill small area of 20% in the center of video
+* `0:0:100:100` will fill all video screen
+* `40:40:60:60` will fill small area of 20% in the center of video
+
+## Example file
+
+  1
+  00:00:10,000 --> 00:27:00,000
+  0:64:100:100
+  http://eagleplatform.ru/
+  Click here to open URL
+  
+
