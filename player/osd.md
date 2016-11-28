@@ -27,10 +27,10 @@ Examples:
 
 ## Example file
 
-  1
-  00:00:10,000 --> 00:27:00,000
-  0:64:100:100
-  http://eagleplatform.ru/
-  Click here to open URL
-  
+    1
+    00:00:10,000 --> 00:27:00,000
+    0:64:100:100
+    http://eagleplatform.ru/
+    Click here to open URL
+
 
