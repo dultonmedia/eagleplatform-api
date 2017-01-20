@@ -81,3 +81,14 @@ Parameters for FTP:
 Pass URL or data to custom_screenshot field to update screenshot
 
 ## Update record
+
+Updates record. Record fields should be passed as request fields wrapped with record object.
+
+    PUT http://api.eagleplatform.com/media/records/{id}.json
+
+## Delete record
+
+    DELETE http://api.eagleplatform.com/media/records/{id}.json
+
+Moves video file to recycle bin.
+    
