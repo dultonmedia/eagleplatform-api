@@ -39,11 +39,10 @@ Example output
       "time": "2016-04-06T13:26:16+03:00",
       "version": "3.0",
       "data": {
-        "record": {
+        "translation": {
           "id": 100500,
           "name": "My video blog record one",
           "description": null,
-          "duration": 164000,
           ...
 
 
