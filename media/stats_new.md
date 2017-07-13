@@ -1,42 +1,62 @@
-## One record views statistics
+### Popular videos
+Returns list of the most popular videos by view count
+`https://eagle.media.eagleplatform.com/api/v2/stat/vod/popular.json?date_from=2015-01-01&date_to=2016-07-01`  
+  
+Params:  
+`date_from`  
+`date_to`  
+`limit`  
+  
+Dates format for this and other requests: `yyyy-MM-dd`  
+Default `limit` is 10.  
+If both `date_from` and `date_to` are blank, results for current date are returning.  
 
-Allows caller to get video statistics by its ID.
+### Embeds
+Returns count of record views, coupled with embed URL and date.  
+`https://eagle.media.eagleplatform.com/api/v2/stat/vod/embeds.json?date_from=2015-01-01&date_to=2016-07-01`    
+  
+Params:  
+`date_from`  
+`date_to`  
+`record_id`  
+`sum`  
+If `record_id` is not presented, results for all account records are provided.  
+If `sum` param is presented and set to 'true', just the amount of total views will be returned.  
 
-    GET http://api.eagleplatform.com/media/records/{id}/statistics.json
-    
-### Params
+### Views
+Returns count of views and unique viewers, coupled with embed URL and date.  
+`https://eagle.media.eagleplatform.com/api/v2/stat/vod/views.json?date_from=2015-01-01&date_to=2016-07-01`    
+  
+Params:  
+`date_from`  
+`date_to`  
+`record_id`  
+`sum`  
+If `record_id` is not presented, results for all account records are provided.  
+If `sum` param is presented and set to 'true', just the amount of total unique viewers will be returned.  
 
-* `id` - Record ID
-* `uniq` - Boolean, set true to get unique viewers statistics
-* `date_from` - Date from which show statistics. Usually in format `dd.mm.yyyy`
-* `date_to` - Date to which show statistics. Usually in format `dd.mm.yyyy`
+### Platforms
+Returns count of record views coupled with client platform and date.  
+`https://eagle.media.eagleplatform.com/api/v2/stat/vod/platforms.json?date_from=2015-01-01&date_to=2016-07-01&record_id=123`   
 
-### Response
+Params:  
+`date_from`  
+`date_to`  
+`record_id`  
+`sum`  
+If `record_id` is not presented, results for all account records are provided.  
+If `sum` param is presented and set to 'true', result is not splitted by date.
 
-You will receive an array of views per day.
 
-### Example request
+### Browsers
+Returns count of record views coupled with client browsers and date.  
+`https://eagle.media.eagleplatform.com/api/v2/stat/vod/browsers.json?date_from=2015-01-01&date_to=2016-07-01&record_id=123`   
 
-    curl -X GET "https://api.eagleplatform.com/media/records/100500/statistics.json?date_from=10.01.2016&date_to=20.01.2016&account=myaccount&auth_token=mytoken"
+Params:  
+`date_from`  
+`date_to`  
+`record_id`  
+`sum`  
+If `record_id` is not presented, results for all account records are provided.  
+If `sum` param is presented and set to 'true', result is not splitted by date.  
 
-
-## One record views statistics by embed URL
-
-Allows caller to get video statistics by its ID.
-
-    GET http://api.eagleplatform.com/media/records/{id}/statistics_embed.json
-    
-### Params
-
-* `id` - Record ID
-* `uniq` - Boolean, set true to get unique viewers statistics
-* `date_from` - Date from which show statistics. Usually in format `dd.mm.yyyy`
-* `date_to` - Date to which show statistics. Usually in format `dd.mm.yyyy`
-
-### Response
-
-You will receive an array of views per day splitted by embed URL of player.
-
-### Example request
-
-    curl -X GET "https://api.eagleplatform.com/media/records/100500/statistics_embed.json?date_from=10.01.2016&date_to=20.01.2016&account=myaccount&auth_token=mytoken"
