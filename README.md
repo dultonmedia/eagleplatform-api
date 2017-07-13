@@ -20,6 +20,7 @@ API Docs for Eagle Platform server and Eagle Player
 
 * [One record statistics](media/record_stats.md)
 * [All records statistics](media/stats.md)
+* [New statistics API](media/stats_new.md)
 
 ## Quering
 
