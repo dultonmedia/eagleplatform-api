@@ -53,6 +53,7 @@ To use events just use `on` subscription similar to JQuery. First parameter will
 * `play` - triggered when player is about to start playing content. It may happen when user clicks on play button.
 * `playing` - triggered just after the main video is started to play. The difference here with `play` event is this method ensures that player started to play video and not advertisement/other possible media.
 * `pause` - when user pauses the video playback
+* `stop` - when video playback is stopped (fully played or externally called by API)
 * `timeupdate` - fired frequently during video playback. Passed parameter is current position in milliseconds
 * `seek` - when user performs seek on a video. Passed parameter is a millisecond to seek for.
 * `loaded_position` - buffered length event in milliseconds of last loaded moment. Triggered frequently during buffering process.
