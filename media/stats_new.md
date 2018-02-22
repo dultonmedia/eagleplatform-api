@@ -1,6 +1,6 @@
 ### Popular videos
 Returns list of the most popular videos by view count
-`https://eagle.media.eagleplatform.com/api/v2/stat/vod/popular.json?date_from=2015-01-01&date_to=2016-07-01`  
+`https://eagle.auth.eagleplatform.com/api/v2/stat/vod/popular.json?date_from=2015-01-01&date_to=2016-07-01`  
   
 Params:  
 `date_from`  
@@ -13,7 +13,7 @@ If both `date_from` and `date_to` are blank, results for current date are return
 
 ### Embeds
 Returns count of record views, coupled with embed URL and date.  
-`https://eagle.media.eagleplatform.com/api/v2/stat/vod/embeds.json?date_from=2015-01-01&date_to=2016-07-01`    
+`https://eagle.auth.eagleplatform.com/api/v2/stat/vod/embeds.json?date_from=2015-01-01&date_to=2016-07-01`    
   
 Params:  
 `date_from`  
@@ -25,7 +25,7 @@ If `sum` param is presented and set to 'true', just the amount of total views wi
 
 ### Views
 Returns count of views and unique viewers, coupled with embed URL and date.  
-`https://eagle.media.eagleplatform.com/api/v2/stat/vod/views.json?date_from=2015-01-01&date_to=2016-07-01`    
+`https://eagle.auth.eagleplatform.com/api/v2/stat/vod/views.json?date_from=2015-01-01&date_to=2016-07-01`    
   
 Params:  
 `date_from`  
@@ -37,7 +37,7 @@ If `sum` param is presented and set to 'true', just the amount of total unique v
 
 ### Platforms
 Returns count of record views coupled with client platform and date.  
-`https://eagle.media.eagleplatform.com/api/v2/stat/vod/platforms.json?date_from=2015-01-01&date_to=2016-07-01&record_id=123`   
+`https://eagle.auth.eagleplatform.com/api/v2/stat/vod/platforms.json?date_from=2015-01-01&date_to=2016-07-01&record_id=123`   
 
 Params:  
 `date_from`  
@@ -50,7 +50,7 @@ If `sum` param is presented and set to 'true', result is not splitted by date.
 
 ### Browsers
 Returns count of record views coupled with client browsers and date.  
-`https://eagle.media.eagleplatform.com/api/v2/stat/vod/browsers.json?date_from=2015-01-01&date_to=2016-07-01&record_id=123`   
+`https://eagle.auth.eagleplatform.com/api/v2/stat/vod/browsers.json?date_from=2015-01-01&date_to=2016-07-01&record_id=123`   
 
 Params:  
 `date_from`  
