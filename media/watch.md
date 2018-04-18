@@ -13,6 +13,7 @@ Currently this API allows to get HLS type video stream URL only. In case if you 
 Params
 
 * `ip` - IP address of viewer. You can skip it: we will sign video URL with IP address of `watch` API method caller.
+* `type` - type or video requested. May be `m3u8` for HLS or `mp4s` for the list of MP4 files
 
 Example request
 
