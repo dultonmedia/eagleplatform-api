@@ -72,9 +72,18 @@ Parameters for FTP:
 * `username` – FTP login
 * `password` – FTP password
 
-Для скачки с HTTP
+Example:
+
+    $ curl --data "record[name]=name;source[type]=ftp;source[parameters][host]=ftp.source.ru&source[parameters][file]=film.mp4&source[parameters][username]=user&source[parameters][password]=pass" "http://api.eagleplatform.com/media/records/{id}.json?account=acc&auth_token=token"
+
+
+Parameters for HTTP
 
 * `url` – Full video file URL, e.g. `http://videos.ru/video.mp4`
+
+Example:
+
+    $ curl --data "record[name]=test;source[type]=http;source[parameters][url]=http://videos.ru/video.mp4" "http://api.eagleplatform.com/media/records/{id}.json?account=acc&auth_token=token"
 
 ### Updating custom screenshot
 
